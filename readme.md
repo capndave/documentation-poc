@@ -35,7 +35,7 @@ function processCats()
 }
 ```
 to
-```
+```javascript
 function processCats() {
     for (cat of cats) {
         herd(cat)
