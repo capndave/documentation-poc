@@ -6,7 +6,7 @@
 
 - When dependencies are used in only a few files, look for opportunities to migrate off of those dependencies
 - Fewer lines of code are better than many lines of code
-- Review code that uses loops to ensure that we aren't looping excessively or performing more computation than necessary
+- Review code that uses loops to ensure that we aren't looping or performing more computation than necessary
 - Keep dependency libraries up-to-date. This ensures that the latest fixes for performance, security, and compatibility are used in your project.
 
 ## Application Load Times (API and UI)
