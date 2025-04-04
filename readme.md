@@ -11,7 +11,8 @@
 
 ## Application Load Times (API and UI)
 
-- When dependencies are used in only a few files, look for opportunities to migrate off of those dependencies
+- Investigate the parts of your code that take the longest to load, so that you can consider caching, lazy-loading, or otherwise optimizing.
+- When dependencies are used in only a few files, look for opportunities to migrate off of those dependencies.
 - Replace old library methods with built-in language features when they exist. Jquery and lodash, for example, were extremely popular JavaScriot libraries which are often no longer needed, because similar methods now exist natively in JavaScript. Similarly, it's permissable to use the native JavaScript fetch API instead of rest-call and the get, post , etc methods that were written in our UI projects.
 
 ## Code Readability
