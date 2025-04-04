@@ -22,7 +22,7 @@
 - Refactor often so that your code is as simple as possible. Don’t be afraid of refactoring or changing code, especially if you can also write tests for it. Refactoring code to make functions [pure](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976) and responsible for only one task makes them both easier to reason about and to test.
 - Move duplicate code into a shared location to reduce the total number of lines in a particular file. Strive for legibility and performance - it _is sometimes_ fine to duplicate code, if it makes your code as a whole easier to read and understand.
 - Code should be self-documenting. Name a function that herds cats `herdCats` instead of something more verbose. Name a variable that is an array of cats `cats` instead of `c`, `animalsArray`, or anything else that is nondescriptive or more complicated than necessary.
-- Break up large functions into smaller subcomponents. Let’s say you have a large function called `processCats` that herds cats (including getting a stick, running around, yelling, etc), cuts their hair (including buying clippers, holding each cat down, etc), and takes them to a cat show (including registering each cat in the cats array, putting gas in the truck, etc), consider changing the below:
+- Break up large functions into smaller subcomponents. Let’s say you have a large function called `processCats` that herds cats (including getting a stick, running around, yelling, etc), cuts their hair (including buying clippers, holding each cat down, etc), and takes them to a cat show (including registering each cat in the cats array, putting gas in the truck, etc). Consider changing the below:
 
 ```javascript 
 function processCats() {
