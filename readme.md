@@ -26,7 +26,7 @@
 
 ```javascript 
 function processCats() {
-    for (cat of cats) {
+    for (const cat of cats) {
         const location = getLocation(cat.location)
         const stick = getStick()
         herdCatsStep1(stick, location)
@@ -37,7 +37,7 @@ function processCats() {
 to
 ```javascript
 function processCats() {
-    for (cat of cats) {
+    for (const cat of cats) {
         herd(cat)
         cutHair(cat)
         show(cat)
