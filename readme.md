@@ -25,7 +25,7 @@
 - Break up large functions into smaller subcomponents. Let’s say you have a large function called `processCats` that herds cats (including getting a stick, running around, yelling, etc), cuts their hair (including buying clippers, holding each cat down, etc), and takes them to a cat show (including registering each cat in the cats array, putting gas in the truck, etc), consider changing the below:
 
 ```javascript 
-function processCats()
+function processCats() {
     for (cat of cats) {
         const location = getLocation(cat.location)
         const stick = getStick()
